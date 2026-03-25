@@ -4,26 +4,7 @@ import './App.css'
 import SearchBar from './SearchBar';
 import ProfileContainer from './ProfileContainer';
 import ShowRepositories from './ShowRepositories';
-const testUsers = [
-  // Популярные
-  'octocat',
-  'torvalds',
-  'gaearon',
-  
-  // Средние
-  'johnpapa',
-  'sindresorhus',
-  'kentcdodds',
-  
-  // Малоактивные
-  'johndoe',
-  'testuser',
-  'vladimir-sag',
-  
-  // Для проверки ошибок
-  'userthatdoesnotexist12345',
-  'nonexistentuserxyz'
-];
+
 function App() {
   const [profile,setProfile] = useState(null)
   const [notFound,setNotFound] = useState(false);

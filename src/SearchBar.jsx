@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import searchIcon from './assets/images/Search.svg';
 export default function SearchBar({onUserFound,onError}){
     const [searchInp,setSearchInp] = useState('');
-    const [userName,setUserName] = useState('')
+    const [userName,setUserName] = useState('github')
 
     useEffect(()=>{
         const controller = new AbortController();
