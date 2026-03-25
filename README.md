@@ -3,7 +3,7 @@
 ![Thumbnail for the GitHub Profile coding challenge](./thumbnail.jpg)
 
 ## 🎯 Live Demo
-🔗 [View Live Demo](https://github-profile-master.vercel.app/) 
+🔗 [View Live Demo](https://github-profile-master-khaki.vercel.app/) 
 📦 [GitHub Repository](https://github.com/Vladimir-Sag/github-profile-master)
 
 ---
