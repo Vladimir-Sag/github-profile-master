@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>github profile master</title>
+    <style>
+      :root {
+        --bg-dark: #111729;
+        --bg-card: #20293A;
+        --bg-elevated: #364153;
+        
+        --text-light: #CDD5E0;
+        --text-muted: #97A3B6;
+        
+        --accent: #1D1B48;
+        --accent-hover: #2A285E;
+        --card-gradient: linear-gradient(95deg, #111729 3%, #1D1B48 99.61%);
+      }
+      body{
+        background-image: url('/hero-image-github-profile-sm.webp');
+        background-repeat: no-repeat;
+        background-size: auto 240px;
+        background-position: top center;
+        background-color: var(--bg-card);
+      }
+      @media (min-width:1024px){
+        body{
+          background-image: url('/hero-image-github-profile.webp');
+          background-size: 100% 240px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
